@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div className='container mx-auto my-12'>
       <div className='text-center'>
-        <h2 className='text-4xl mb-8 text-sky-500 uppercase border-2 inline-block p-3 rounded-md'>Our Blogs</h2>
+        <h2 className='text-4xl mb-8 text-rose-900 uppercase border-2 inline-block p-3 rounded-md'>Our Blogs</h2>
       </div>
       <PageTitle title={'Blog'}></PageTitle>
       <div className="grid lg:grid-cols-3 gap-6 sm:grid-cols-1 my-8">

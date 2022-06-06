@@ -26,6 +26,7 @@ const Header = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
+                <CustomLink to='/' className="text-white mx-4 uppercase custom-menu-itm">Home </CustomLink>
                 <CustomLink to='/manage-item' className="text-white mx-4 uppercase custom-menu-itm">Manage Inventory</CustomLink>
                 <CustomLink to='/blogs' className="text-white mx-4 uppercase custom-menu-itm">Blogs</CustomLink>
                 {

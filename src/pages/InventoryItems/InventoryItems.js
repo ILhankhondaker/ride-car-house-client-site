@@ -10,7 +10,7 @@ const InventoryItems = () => {
   return (
     <div>
       <div className='text-center'>
-        <h2 className='text-4xl mb-8 text-sky-500 uppercase border-2 inline-block p-3 rounded-md'> Inventory Items</h2>
+        <h2 className='text-6xl mb-8 text-rose-900 uppercase border-2 inline-block p-3 rounded-md'> Inventory Items</h2>
       </div>
       <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-1'>
         {
@@ -22,7 +22,7 @@ const InventoryItems = () => {
         }
       </div>
       <div className='text-center mt-8'>
-        <button onClick={() => navigate('/manage-item')} className='bg-red-500 text-white px-8 py-3 rounded-md uppercase'>Manage Inventory</button>
+        <button onClick={() => navigate('/manage-item')} className=' bg-orange-600 text-white px-8 py-3 rounded-md uppercase'>Manage Inventory</button>
       </div>
     </div>
   );

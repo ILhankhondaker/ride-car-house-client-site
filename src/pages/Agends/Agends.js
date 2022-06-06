@@ -15,7 +15,7 @@ const Agends = () => {
   return (
     <div>
       <div className='text-center'>
-        <h2 className='text-4xl mb-8 text-sky-500 uppercase border-2 inline-block p-3 rounded-md'>Our Suppliers</h2>
+        <h2 className='text-4xl mb-8 text-rose-900 uppercase border-2 inline-block p-3 rounded-md'>Our Suppliers</h2>
       </div>
       <div className='grid lg:grid-cols-4 gap-4 sm:grid-cols-1 my-8'>
         {

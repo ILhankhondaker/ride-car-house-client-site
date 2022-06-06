@@ -13,9 +13,9 @@ const Home = () => {
       <div className='md:h-96 h-72' style={{ backgroundImage: `url(${slide1})`, backgroundPosition: "center" }}>
         <Helmet title="Home | Ride Car-House Inventory"></Helmet>
         <div className='container mx-auto banner-content pt-16 md:pt-24'>
-          <p className='text-white md:text-4xl text-2xl uppercase'>The All New</p>
+          <p className='text-black md:text-4xl text-2xl uppercase'>The All New</p>
           <h2 className='text-sky-500 md:text-6xl text-5xl uppercase py-2'>Mazda-mx5</h2>
-          <h3 className='md:text-4xl text-2xl text-white uppercase'>Stylish & Mordern</h3>
+          <h2 className='md:text-4xl text-2xl text-amber-400 uppercase'>Stylish & Mordern</h2>
         </div>
       </div>
 
